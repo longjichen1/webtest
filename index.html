@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <form>
+            Enter username: <br>
+            <input type = "text" placeholder = "username" id = "username" required>
+            <br>
+            Enter email: <br>
+            <input type = "email" placeholder = "email" id = "email" required>
+            <br>
+            Enter password: <br>
+            <input type = "password" placeholder = "password" id = "password" required>
+            <br>
+            <strong>Select your age:</strong><br>
+            <input type = "radio" value = "0-25"id = "0-25" name = "age">0-25 
+            <input type = "radio" value = "26-50" id = "26-50" name = "age">26-50
+            <input type = "radio" value = "51+" id = "51+" name = "age">51+
+
+            <br>Security question: <select name = "question" id = "question" required>
+                <option value="q1">Question 1</option>
+                <option value="q2">Question 2</option>
+                <option value="q3">Question 3</option>
+            </select>
+            <br>Security question answer: <input type = "text" name = "answer" id = "answer" required>
+            <br><br>Your Bio:<br>
+            <textarea name = "bio" id = "bio" cols = "30" rows = "10" placeholder = "Your bio..."></textarea>
+            <input type = "submit">
+        </form>
+    </body>
+</html>
