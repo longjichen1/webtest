@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
+    
+
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>HTML Forms</title>
     </head>
     <body>
+        <a href="http://localhost:5500/about.html">
+            <h1>HTML Forms</h1>
+        </a>
+        <div>
         <form>
             Enter username: <br>
             <input type = "text" placeholder = "username" id = "username" required>
@@ -20,14 +27,17 @@
             <input type = "radio" value = "51+" id = "51+" name = "age">51+
 
             <br>Security question: <select name = "question" id = "question" required>
-                <option value="q1">Question 1</option>
+                <div>
+                <option value="q1" ><strong style = "color:blue">Question 1</strong></option>
                 <option value="q2">Question 2</option>
                 <option value="q3">Question 3</option>
+                </div>
             </select>
             <br>Security question answer: <input type = "text" name = "answer" id = "answer" required>
             <br><br>Your Bio:<br>
             <textarea name = "bio" id = "bio" cols = "30" rows = "10" placeholder = "Your bio..."></textarea>
             <input type = "submit">
         </form>
+    </div>
     </body>
 </html>
