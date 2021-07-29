@@ -8,7 +8,10 @@ body, html{
     color:#645;
 }
 
-
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
 
 .img1, .img2, .img3{
     position:relative;
