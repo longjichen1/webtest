@@ -1,0 +1,25 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    color:orange;
+    text-align : center;
+    border-bottom: 4px dashed crimson;
+    background-color:azure;
+    text-decoration:underline;
+}
+h3.selection{
+    column-count:2;
+    text-align:center;
+}
+a{
+    text-decoration :none;
+    display:block;
+}
+div{
+    color:blue;
+}
+input{
+    color:red;
+    display:block;
+}
