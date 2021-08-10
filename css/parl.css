@@ -14,7 +14,7 @@ body, html{
 }
 
 .img1, .img2, .img3{
-    position:relative;
+    position:sticky;
     opacity:0.70;
     background-position:center;
     background-size:cover;
@@ -30,13 +30,13 @@ body, html{
 }
 
 .img2{
-    background-image:url('../img/img2.jpg');
+    background-image:url('../img/img1.jpg');
     background-position:center;
     min-height:400px;
 }
 
 .img3{
-    background-image:url('../img/img3.jpg');
+    background-image:url('../img/img1.jpg');
     background-position:center;
     min-height:400px;
 }
