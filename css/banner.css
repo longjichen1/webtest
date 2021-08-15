@@ -6,7 +6,7 @@ body, ul, li, h1, h2, a{
 header{
     background-color:red;
     position:fixed;
-    padding:20px;
+    padding:21px;
     top:0;
     left:0;
     text-align:center;
@@ -16,7 +16,7 @@ header{
 header h1{
     color:white;
     border: 8px solid white;
-    padding: 6px 12px;
+    padding: 8px 12px;
     display:inline-block;
     border-radius:36px;
 }
@@ -230,6 +230,7 @@ footer{
         position:sticky;
         
     }
+
     .images li{
         width:60%;
         padding:0px;
