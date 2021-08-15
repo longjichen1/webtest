@@ -226,10 +226,15 @@ footer{
     .images{
         padding:0px;
     }
+    nav.main-nav{
+        position:sticky;
+        
+    }
     .images li{
         width:60%;
         padding:0px;
-        margin:0px;
+        margin-left:auto;
+        margin-right:auto;
         text-align:left;
     }
     form input{
